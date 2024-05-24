@@ -1,0 +1,286 @@
+
+// header
+
+#header {
+  height: 108px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #F3E8DE;
+  border: 2px solid #ede1d7
+}
+
+
+.header-menu {
+  display: flex;
+  gap: 35px;
+  padding-right: 140px;
+}
+
+
+.header-menu-item {
+  text-transform: none;
+  margin-left: 2%;
+  white-space: nowrap;
+  font-family:'Solway-Bold';
+  font-size: 16px;
+  color: #836A5B;
+
+}
+
+.header-menu-item:hover {
+  color:#363636;
+}
+
+
+
+#search {
+	max-width: 300px;
+  padding-right: 30px;
+  --border-radius: 10pt;
+  --box-shadow: none;
+  --icon-color: #836A5B;
+  --clear-button-color: #836A5B;
+  --color: #836A5B;
+
+  font-family: 'Nunito-Bold';
+}
+
+#menu-buttons {
+  margin-right: 20px;
+}
+
+
+// header
+
+#header {
+  height: 108px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #F3E8DE;
+  border: 2px solid #ede1d7
+  
+}
+
+
+.header-menu {
+  display: flex;
+  gap: 35px;
+  padding-right: 140px;
+  z-index: 999;
+
+  
+}
+
+
+.header-menu-item {
+  text-transform: none;
+  margin-left: 2%;
+  white-space: nowrap;
+  font-family:'Solway-Bold';
+  font-size: 16px;
+  color: #836A5B;
+
+
+}
+
+.cat-container{
+  display: flex;
+  background-color: #F3E8DE;
+  z-index: 999;
+  justify-content: space-between;
+  width: 420px;
+
+}
+
+.cat-container5{
+  display: flex;
+  background-color: #F3E8DE;
+  z-index: 999;
+  justify-content: space-between;
+  width: 1020px;
+
+}
+
+.cat-container6{
+  display: flex;
+  background-color: #F3E8DE;
+  z-index: 999;
+  justify-content: space-between;
+  width: 750px;
+
+}
+
+
+.cat-container2{
+  text-transform: none;
+  padding-left: 8%;
+  white-space: nowrap;
+  font-family:'Solway-Bold';
+  font-size: 14px;
+  color: #363636;
+  z-index: 999;
+ 
+}
+
+.cat-container3{
+  text-transform: none;
+  margin-left: 2%;
+  white-space: nowrap;
+  font-family:'Solway-Bold';
+  font-size: 14px;
+  color: #836A5B;
+  z-index: 999;
+}
+
+.header-menu-item1 {
+  text-transform: none;
+  margin-left: 2%;
+  white-space: nowrap;
+  font-family:'Nunito';
+  font-size: 14px;
+  color: #676767;
+  z-index: 999;
+  margin-top: 0px;
+  
+
+}
+
+.header-menu-item2{
+  text-transform: none;
+  margin-left: 2%;
+  white-space: nowrap;
+  font-family:'Solway';
+  font-size: 14px;
+  color: #676767;
+  z-index: 999;
+  
+}
+
+.div1{
+  
+  margin-top: 0px;
+  background: transparent;
+  
+}
+
+ion-item{
+  --background: transparent;
+  width: 280px;
+}
+
+.space{
+  height: 45px;
+  background: transparent;
+  z-index: 0;
+}
+
+ion-list{
+  background: #F3E8DE;
+  margin-top: 20px;
+  width: 1100px;
+  display: none;
+  position: absolute;
+  padding: 0;
+  border-radius: 10px;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  height: 350px;
+  flex-direction: row;
+}
+
+.container2{
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  height: 350px;
+  gap: 20%;
+  margin-left: 5%;
+  flex-direction: row;
+}
+
+
+.header-menu-item:hover {
+  color:#363636;
+}
+
+.header-menu-item:hover + ion-list{
+  display: block;
+}
+ion-list:hover {
+  display: block;
+}
+
+.header-menu-item1:hover {
+  color:#363636;
+  text-decoration: underline;
+  
+}
+
+.image {
+  height: 350px;
+}
+
+.list{
+  display: flex; 
+  justify-content:center; 
+  padding: 20px; 
+  gap: 100px;
+}
+
+// divider
+
+
+.hr2 {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border-top: 4px solid #E7D9CC;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hr4 {
+  display: block;
+  width: 70%;
+  border-radius: 5px;
+  border-top: 4px solid #E7D9CC;
+  margin-left: auto;
+  margin-right: auto;
+}
+// footer
+
+ion-footer{
+  display: block;
+  background-color: #F3E8DE;
+  text-align: left;
+
+  padding: 50px 0;
+}
+
+.footer-title {
+  font-family: 'Solway-Medium';
+  font-size: 20px;
+  color: #363636;
+  margin-bottom: 12%;
+
+}
+
+p {
+  font-family: 'Nunito-Medium';
+  font-size: 11pt;
+  margin-bottom: 10%;
+}
+
+.align-logos {
+  
+  text-align: center;
+  margin-left: -30%;
+
+}

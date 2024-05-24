@@ -1,0 +1,299 @@
+<header id="header">
+
+  <a href="home"><img src="./assets/img/logo2.png" alt="TugaKidsClothes" /></a>
+  
+  <nav class="header-menu">
+    <a href="recem-nascido" class="header-menu-item">Recém-Nascido</a>
+    <a href="bebe" class="header-menu-item">Bebé</a>
+    <a href="crianca" class="header-menu-item">Criança</a>
+    <a href="mae" class="header-menu-item">Mãe</a>
+    <a href="cuidados"class="header-menu-item">Cuidados</a>
+    <a href="brinquedos" class="header-menu-item">Brinquedos</a>
+    <a href="casa" class="header-menu-item">Casa</a>
+  </nav>
+
+
+  
+<ion-buttons slot="end" id="menu-buttons">
+  
+  <ion-searchbar placeholder="Pesquisar" id="search"></ion-searchbar>
+
+  <ion-button>
+    <ion-icon slot="icon-only" name="heart" color="tertiary"></ion-icon>
+  </ion-button> 
+  <ion-button>
+    <ion-icon slot="icon-only" name="person" color="tertiary"></ion-icon>
+  </ion-button>
+  <ion-button>
+    <ion-icon slot="icon-only" name="bag-outline" color="tertiary"></ion-icon>
+  </ion-button>
+</ion-buttons>
+
+</header>
+
+<ion-content>
+
+  <!-- body -->
+
+  <div style="display: flex; flex-direction: column;">
+
+    <div id="top-section">
+      <p id="page-path"><a href="home">Página Principal</a> > Bebé </p>
+      <h1 id="title">Bebé</h1>
+    </div>
+    
+    <div id="body">
+
+      <div id="filters">
+
+        <div id="filter-genders">
+          <ion-accordion-group>
+            <ion-accordion>
+             
+              <ion-item slot="header" >
+                <ion-list-header>
+                  <h2 class="filter-title">Género</h2>
+                </ion-list-header>
+              </ion-item>
+
+              <ion-list slot="content">
+                <ion-item ion-list lines="none" >
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">Menina</p>
+                </ion-item>
+      
+                <ion-item ion-list lines="none">
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">Menino</p>
+                </ion-item>
+
+              </ion-list>
+            </ion-accordion>
+          </ion-accordion-group>
+        </div>
+  
+        <div id="filter-sizes">
+          <ion-accordion-group>
+            <ion-accordion>
+
+              <ion-item slot="header">
+                <ion-list-header>
+                  <h2 class="filter-title">Tamanho</h2>
+                </ion-list-header>
+              </ion-item>
+
+              <ion-list slot="content">
+
+                <ion-item ion-list lines="none">
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">6 - 9 Meses</p>
+                </ion-item>
+
+                <ion-item ion-list lines="none">
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">9 - 12 Meses</p>
+                </ion-item>
+                  
+                <ion-item ion-list lines="none">
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">12 - 18 Meses</p>
+                </ion-item>
+      
+                <ion-item ion-list lines="none">
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">18 - 24 Meses</p>
+                </ion-item>
+
+              </ion-list>
+
+            </ion-accordion>
+          </ion-accordion-group>
+        </div>
+  
+        <div id="filter-colors">
+          <ion-accordion-group>
+            <ion-accordion>
+              
+              <ion-item slot="header">
+                <ion-list-header>
+                  <h2 class="filter-title">Cor</h2>
+                </ion-list-header>
+              </ion-item>
+
+              <ion-list slot="content">
+                <ion-item ion-list lines="none">
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">Branco</p>
+                  <ion-icon name="ellipse" style="color: white;"></ion-icon>
+                </ion-item>
+      
+                <ion-item ion-list lines="none">
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">Preto</p>
+                  <ion-icon name="ellipse" style="color: black;"></ion-icon>
+                </ion-item>
+      
+                <ion-item ion-list lines="none">
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">Vermelho</p>
+                  <ion-icon name="ellipse" style="color: #FE6D73;"></ion-icon>
+                </ion-item>
+      
+                <ion-item ion-list lines="none">
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">Rosa</p>
+                  <ion-icon name="ellipse" style="color: #FFAFCC;"></ion-icon>
+                </ion-item>
+      
+                <ion-item ion-list lines="none">
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">Azul</p>
+                  <ion-icon name="ellipse" style="color: #A2D2FF;"></ion-icon>
+                </ion-item>
+      
+                <ion-item ion-list lines="none">
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">Verde</p>
+                  <ion-icon name="ellipse" style="color: #CCD5AE;"></ion-icon>
+                </ion-item>
+      
+                <ion-item ion-list lines="none">
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">Amarelo</p>
+                  <ion-icon name="ellipse" style="color: #FFD166;"></ion-icon>
+                </ion-item>
+      
+                <ion-item ion-list lines="none">
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">Castanho</p>
+                  <ion-icon name="ellipse" style="color: #B08968;"></ion-icon>
+                </ion-item>
+      
+                <ion-item ion-list lines="none">
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">Bege</p>
+                  <ion-icon name="ellipse" style="color: #E6CCB2;"></ion-icon>
+                </ion-item>
+      
+                <ion-item ion-list lines="none">
+                  <ion-checkbox></ion-checkbox>
+                  <p class="filter-text">Cinza</p>
+                  <ion-icon name="ellipse" style="color: #D0D0D0;"></ion-icon>
+                </ion-item>
+              </ion-list>
+
+            </ion-accordion>
+          </ion-accordion-group>
+        
+        </div>
+      </div>
+
+
+      <ion-grid>
+        <ion-row>
+          <ng-container *ngFor="let product of dataProducts | keyvalue">
+          
+            <ion-col *ngIf="product.value.age === 'infant' || product.value.age == 'all'">
+              <div style="width: 300px;">
+
+                <div (click)="verProduto(product.key)"> 
+              
+                  <ion-card>
+                    <img src="{{ product.value.image }}" />
+                  </ion-card>
+                  
+                  <h3 class="item-name">{{ product.value.name }}</h3>
+                  <p class="item-description">{{ product.value.color }}</p>
+                  <p class="item-description">{{ product.value.price }} €</p>
+
+                </div>
+              
+              </div>
+            </ion-col>
+
+          </ng-container>
+        </ion-row>
+      </ion-grid>
+
+    
+      
+    </div>
+  </div>
+
+
+  
+  
+  <!-- footer -->
+    
+  <ion-footer class="footer">
+    <ion-grid>
+      <ion-row>
+        <ion-col style="margin-left: 4%;">
+          <h1 class="footer-title" >TugaKidsClothes</h1>
+          <p class="footer-info"><a href="sobre-nos">Sobre Nós</a></p>
+          <p class="footer-info">Guias de Tamanhos</p>
+          <p class="footer-info">Localizar Loja</p>
+        </ion-col>
+
+        <ion-col style="margin-right: -4%;">
+          <h1 class="footer-title">Ajuda</h1>
+          <p class="footer-info">Perguntas Frequentes</p>
+          <p class="footer-info">Entregas</p>
+          <p class="footer-info">Devoluções</p>
+        </ion-col>
+
+        <ion-col style="margin-left: 2%;">
+          <h1 class="footer-title">Informações Legais</h1>
+          <p class="footer-info">Termos e Condições</p>
+          <p class="footer-info">Política de Privacidade</p>
+        </ion-col>
+
+        <ion-col style="margin-left: 2%;">
+          <h1 class="footer-title">Apoio ao Cliente</h1>
+          <p class="footer-info">(+351) 000 000 001</p>
+          <p class="footer-info" style="color: #676767;">De segunda a sexta, das 10:00h às 17:00h.</p>
+          <p class="footer-info">clienteonline@tugakidsclothes.com</p>
+        </ion-col>
+
+        <ion-col style="margin-left: 2%;">
+          <h1 class="footer-title">Métodos de Pagamento</h1>
+       
+          <ion-grid>
+            <ion-row>
+              <ion-col class="align-logos">
+                <img src="assets/logos/mastercard.png" height="30px"/>
+              </ion-col>
+              <ion-col class="align-logos">
+                <img src="assets/logos/visa.png" height="30px" />
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col class="align-logos">
+                <img src="assets/logos/mbway.png" height="30px" />
+              </ion-col>
+              <ion-col class="align-logos">
+                <img src="assets/logos/multibanco.png" height="30px" />
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col class="align-logos">
+                <img src="assets/logos/paypal.png" height="30px" />
+              </ion-col>
+              <ion-col class="align-logos">
+                <img src="assets/logos/gpay.png" height="30px" />
+              </ion-col>
+            </ion-row>
+
+          </ion-grid>
+        </ion-col>
+
+    
+
+      </ion-row>
+    </ion-grid>
+
+  </ion-footer>
+
+</ion-content>

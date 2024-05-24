@@ -1,0 +1,135 @@
+
+// -- header --
+
+ion-content {
+    --background: #FFF7EF;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#checkout-title {
+    text-transform: uppercase;
+    font-family: "Solway-Bold";
+    font-size: 27px;
+    color: #363636;
+}
+
+.step-number {
+    font-family: "Solway-Regular";
+    font-size: 26px;
+    color: #FFF7EF;
+    padding: 7px;
+    border-radius: 50%; 
+    border: 2px solid #836A5B;
+    background:#B89D87; 
+    width: 50px; 
+    height: 50px;
+}
+
+.step-number2 {
+    font-family: "Solway-Regular";
+    font-size: 26px;
+    color: #363636;
+    padding: 7px;
+    border-radius: 50%; 
+    border: 2px solid #836A5B;
+    background:#F3E8DE; 
+    width: 50px; 
+    height: 50px;
+}
+
+.checkout-header {
+    font-family: "Solway-Medium";
+    font-size: 23px;
+    color: #363636;
+}
+
+
+// --- container ---
+
+#container {
+    margin: auto;
+    margin-top: 40px;
+    background-color: #F3E8DE;
+    border: 1px solid #E7D9CC;
+    width: 50%;
+    height: 74%;
+    border-radius: 5px;
+    padding: 0 40px;
+}
+
+.title {
+    font-family: 'Solway-Medium';
+    font-size: 18px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.subtitle {
+    font-family: 'Nunito-Medium';
+    font-size: 16px;
+
+}
+
+#selecionar-loja-container {
+    background-color: #FFF7EF;
+    height: 65%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#hr1 {
+    display: block;
+    width: 101%;
+    border: 2px solid #F3E8DE;
+    background-color: #F3E8DE;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#alterar-loja {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.general-button {
+    margin-top: 14px;
+}
+
+#container-loja {
+    background-color: #F3E8DE;
+    border: 1px solid #E7D9CC;
+    border-radius: 5px;
+    width: 80%;
+    padding: 0 20px;
+    margin-top: 10px
+}
+
+p {
+    font-family: 'Nunito-Medium';
+    font-size: 14px;
+}
+
+.info-container {
+    margin: 0 30px;
+    margin-top: 20px;
+    margin-bottom: 40px
+}
+    
+.center-button {
+    text-align: center;
+    margin: 10px 0;
+}
+

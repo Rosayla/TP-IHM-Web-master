@@ -1,0 +1,225 @@
+
+// -- header --
+
+ion-content {
+    --background: #FFF7EF;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#checkout-title {
+    text-transform: uppercase;
+    font-family: "Solway-Bold";
+    font-size: 27px;
+    color: #363636;
+}
+
+.step-number {
+    font-family: "Solway-Regular";
+    font-size: 26px;
+    color: #FFF7EF;
+    padding: 7px;
+    border-radius: 50%; 
+    border: 2px solid #836A5B;
+    background:#B89D87; 
+    width: 50px; 
+    height: 50px;
+}
+
+.step-number2 {
+    font-family: "Solway-Regular";
+    font-size: 26px;
+    color: #363636;
+    padding: 7px;
+    border-radius: 50%; 
+    border: 2px solid #836A5B;
+    background:#F3E8DE; 
+    width: 50px; 
+    height: 50px;
+}
+
+.checkout-header {
+    font-family: "Solway-Medium";
+    font-size: 23px;
+    color: #363636;
+}
+
+// -- body --
+
+hr {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border-top: 4px solid #E7D9CC;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#container-all {
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+
+#container-left {
+    background: #F3E8DE;
+    width: 50%;
+    border-radius: 5px;
+    margin: 3% 0;
+    padding: 3%;
+}
+
+#container-right {
+    background: #F3E8DE;
+    width: 30%; 
+    height: 30%;
+    border-radius: 5px;
+    margin: 3% 0;
+    padding: 2%;
+}
+
+.align-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+// -- metodo entrega --
+
+.metodo-entrega {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF7EF;
+    border: 1px solid #E7D9CC;
+    border-radius: 5px;
+    margin: 2% 0;
+}
+
+.title {
+    font-family: "Solway-Regular";
+    font-size: 23px;
+    color: #363636;
+    padding-bottom: 20px;
+}
+
+.text1 {
+    font-family: "Nunito-Regular";
+    font-size: 18px;
+    color: #363636;
+}
+
+.text2 {
+    font-family: "Nunito-Bold";
+    font-size: 20px;
+    color: #836A5B;
+    text-align: right;
+    padding: 0 20px;
+}
+
+// -- cupoes --
+
+.container-cupao {
+    display: flex;
+    gap: 20px;
+    width: 40%;
+}
+
+.subtitle {
+    font-family: "Nunito-Regular";
+    font-size: 16px;
+    color: #363636;
+}
+
+.input {
+    --background: #FFF7EF;
+    border: 1px solid #F3E8DE;
+    --border-width:10pt;
+    border-radius: 5px;
+    text-align: left;
+    font-family: 'Nunito-Bold';
+    border: 1px solid #E7D9CC;
+}
+
+// -- endereco faturação --
+
+.endereco-faturacao {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    padding: 0 20px;
+    background-color: #FFF7EF;
+    border: 1px solid #E7D9CC;
+    border-radius: 5px;
+    margin: 2% 0;
+    width: 50%;
+}
+
+// -- metodo pagamento --
+
+.metodo-pagamento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF7EF;
+    border: 1px solid #E7D9CC;
+    border-radius: 5px;
+    margin: 2% 0;
+}
+
+.general-button {
+    --background: #B89D87;
+    color: #FFF7EF;
+    margin-top: 20px;
+}
+
+img {
+    padding: 0 20px;
+}
+
+ion-radio {
+    --color: #E7D9CC;
+    --color-checked: #836A5B;
+    margin-right: 10px ;
+}
+
+// -- resumo encomenda --
+
+.text3 {
+    font-family: "Nunito-Regular";
+    font-size: 20px;
+    color: #363636;
+}
+
+img {
+    margin-left: -14%;
+}
+
+// 
+
+.entregaLoja {
+    display: none;
+}
+
+.entregaCasa {
+    display: none;
+}
+
+.containerEntrega {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    background: #FFF7EF;
+    padding: 30px;
+    border: 1px solid #E7D9CC;
+    border-radius: 5px;
+}

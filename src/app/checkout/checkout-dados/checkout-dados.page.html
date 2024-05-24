@@ -1,0 +1,209 @@
+
+<ion-content>
+
+  <!-- header -->
+
+  <header id="header">
+
+    <a href="home"><img src="./assets/img/logo2.png" alt="TugaKidsClothes" /></a>
+
+    <h1 id="checkout-title">Checkout</h1>
+
+    <div style="display: flex; align-items:center; justify-content: center; gap: 30px;">
+      <p class="step-number" style="text-align: center; ">1</p>
+    
+      <h1 class="checkout-header">Dados da Encomenda</h1>
+  
+      <div></div>
+
+      <p class="step-number2" style="text-align: center; ">2</p>
+  
+      <h1 class="checkout-header">Confirmação</h1>
+  
+      <div></div>
+    </div>
+  
+  </header>
+
+  <!-- body -->
+
+  <div id="container-all">
+    <div id="container-left">
+
+      <h2 class="title">Selecionar método de entrega</h2>
+
+      <ion-radio-group>
+
+        <div class="metodo-entrega">
+          <div class="align-left">
+            <ion-radio (click)="abrirLoja()"></ion-radio>
+            <h3 class="text1">Levantamento em loja</h3>
+          </div>
+
+          <h3 class="text2">Gratuito</h3>
+        </div>
+
+        <div id="entregaLoja" class="entregaLoja">
+          <div class="containerEntrega">
+            <h2 class="title">Loja A</h2>
+            <ion-button>Alterar</ion-button>
+          </div>
+        </div>
+
+        <div class="metodo-entrega">
+
+          <div class="align-left">
+            <ion-radio (click)="abrirCasa()"></ion-radio>
+            <h3 class="text1">Entrega em casa </h3>
+          </div>
+
+          <h3 class="text2">3.50€</h3>
+        </div>
+
+        <div id="entregaCasa" class="entregaCasa">
+          <div class="containerEntrega">
+            <h2 class="title">Casa</h2>
+            <ion-button>Alterar</ion-button>
+          </div>
+        </div>
+
+      </ion-radio-group>
+
+      <hr>
+
+      <h2 class="title">Código Promocional</h2>
+      <p class="subtitle">Tens um cupão? Insere-o aqui:</p>
+
+      <div class="container-cupao">
+        <ion-input class="input"></ion-input>
+        <ion-button>Validar</ion-button>
+      </div>
+      
+
+      <hr>
+
+      <h2 class="title">Selecionar endereço de faturação</h2>
+
+      <ion-radio-group>
+
+        <div class="endereco-faturacao">
+          <ion-radio></ion-radio>
+          <h3 class="text1">Igual a endereço de entrega</h3>
+        </div>
+
+        <div class="endereco-faturacao">
+          <ion-radio></ion-radio>
+          <h3 class="text1">Introduzir endereço de faturação</h3>
+        </div>
+
+      </ion-radio-group>
+
+
+      <hr>
+
+      <h2 class="title">Selecionar método de pagamento</h2>
+
+      <ion-radio-group>
+
+        <div class="metodo-pagamento">
+          <div class="align-left">
+            <ion-radio></ion-radio>
+            <h3 class="text1">Cartão de Crédito</h3>
+          </div>
+
+          <div style="display: flex;">
+            <img src="assets/logos/visa.png" height="30px"/>
+            <img src="assets/logos/mastercard.png" height="30px"/>
+          </div>
+
+        </div>
+
+        <div class="metodo-pagamento">
+          <div class="align-left">
+            <ion-radio></ion-radio>
+            <h3 class="text1">MBWay</h3>
+          </div>
+
+          <img src="assets/logos/mbway.png" height="30px"/>
+        </div>
+
+        <div class="metodo-pagamento">
+          <div class="align-left">
+            <ion-radio></ion-radio>
+            <h3 class="text1">Multibanco Homebanking</h3>
+          </div>
+
+          <img src="assets/logos/multibanco.png" height="30px"/>
+        </div>
+
+        <div class="metodo-pagamento">
+          <div class="align-left">
+            <ion-radio></ion-radio>
+            <h3 class="text1">Paypal</h3>
+          </div>
+
+          <img src="assets/logos/paypal.png" height="30px"/>
+        </div>
+
+        <div class="metodo-pagamento">
+          <div class="align-left">
+            <ion-radio></ion-radio>
+            <h3 class="text1">Google Pay</h3>
+          </div>
+
+          <img src="assets/logos/gpay.png" height="30px"/>
+        </div>
+
+      </ion-radio-group>
+
+      <div style="text-align: center;"> 
+        <ion-button class="general-button" routerLink="/confirmacao-encomenda" routerDirection="root">Finalizar Pagamento</ion-button>
+      </div>
+      
+
+    </div>
+  
+    <div id="container-right">
+
+      <div style="text-align: center;">
+        <h2 class="title">1 Item</h2>
+      </div>
+
+      <hr>
+
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <img src="assets/img/clothes/body_merino_azul.webp" height="200px">
+
+        <div >
+          <p class="text1">20.00 €</p>
+          <p class="text1">Body</p>
+          <p class="text1">Cor: <strong>Azul</strong></p>
+          <p class="text1">Tamanho: <strong>3 - 6 Meses</strong></p>
+          <p class="text1">Qtd: <strong>1 </strong></p>
+        </div>
+      </div>
+  
+      <hr>
+
+      <div style="display: flex; justify-content: space-between;">
+        <h3 class="text3">Subtotal</h3>
+        <h3 class="text3">20.00 €</h3>
+      </div>
+
+      <div style="display: flex; justify-content: space-between;">
+        <h3 class="text3">Custos de Entrega</h3>
+        <h3 class="text3">3.50€</h3>
+      </div>
+
+      <div style="display: flex; justify-content: space-between;">
+        <h2 class="text3"><strong>Total</strong></h2>
+        <h2 class="text3"><strong>23.50 €</strong></h2>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+</ion-content>

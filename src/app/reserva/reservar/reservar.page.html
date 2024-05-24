@@ -1,0 +1,71 @@
+
+<ion-content>
+
+  <!-- header -->
+
+  <header id="header">
+
+    <a href="home"><img src="./assets/img/logo2.png" alt="TugaKidsClothes" /></a>
+
+    <h1 id="checkout-title">Reserva</h1>
+
+    <div style="display: flex; align-items:center; justify-content: center; gap: 70px;">
+      
+      <p class="step-number" style="text-align: center; ">1</p>
+
+      <h1 class="checkout-header">Dados de Reserva</h1>
+  
+      <div></div>
+
+      <p class="step-number2" style="text-align: center; ">2</p>
+  
+      <h1 class="checkout-header">Confirmação</h1>
+  
+      <div></div>
+
+    </div>
+  
+  </header>
+
+  <!-- body -->
+
+  <div id="container">
+    <h2 class="title">Selecionar Loja</h2>
+
+    <div id="selecionar-loja-container">
+
+      <div class="flex">
+        <h3 class="subtitle">Loja para efetuar reserva</h3>
+        <h3 class="subtitle"><strong>Gratuito</strong></h3>
+      </div>
+
+      <hr id="hr1">
+
+      <div id="alterar-loja">
+        <div id="container-loja">
+          <h3 class="subtitle">Loja A - Disponível</h3>
+        </div>
+        <ion-button class="general-button">Alterar</ion-button>
+      </div>
+
+      <div class="info-container"> 
+        <p>Rua A, 1</p>
+        <p>Viana do Castelo</p>
+        <p>4900-001</p>
+      </div>
+
+      <div class="info-container">
+        <p>Aluno EI</p>
+        <p>001 002 003 (Contacto)</p>
+      </div>
+
+    </div>
+
+    <div class="center-button">
+      <ion-button class="general-button" (click)="goBack()">Cancelar</ion-button>
+      <ion-button class="general-button" routerLink="/reserva-confirmacao" routerDirection="root">Confirmar</ion-button>
+    </div>
+
+  </div>
+
+</ion-content>

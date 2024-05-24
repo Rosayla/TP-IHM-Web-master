@@ -1,0 +1,80 @@
+
+// -- header --
+
+ion-content {
+    --background: #FFF7EF;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFF7EF;
+    
+}
+
+#checkout-title {
+    text-transform: uppercase;
+    font-family: "Solway-Bold";
+    font-size: 27px;
+    color: #363636;
+}
+
+.step-number {
+    font-family: "Solway-Regular";
+    font-size: 26px;
+    color: #FFF7EF;
+    padding: 7px;
+    border-radius: 50%; 
+    border: 2px solid #836A5B;
+    background:#B89D87; 
+    width: 50px; 
+    height: 50px;
+}
+
+.checkout-header {
+    font-family: "Solway-Medium";
+    font-size: 23px;
+    color: #363636;
+}
+
+// --- body ---
+
+ion-content {
+    --background: #F4ECE4
+}
+
+#body {
+    background-color: #FFF7EF;
+    width: 60%;
+    margin: 20px auto;
+    padding: 0 40px;
+    border-radius: 5px;
+    height: 84%;
+}
+
+#header-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.title {
+    font-family: 'Solway-Bold';
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.text {
+    font-family: 'Nunito-Medium';
+    font-size: 14px;
+}
+
+#info-reserva {
+    text-align: center;
+}
+
+.general-button {
+    margin: 20px 0;
+}

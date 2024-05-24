@@ -1,0 +1,105 @@
+
+// -- header --
+
+ion-content {
+    --background: #FFF7EF;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFF7EF;
+    
+}
+
+#checkout-title {
+    text-transform: uppercase;
+    font-family: "Solway-Bold";
+    font-size: 27px;
+    color: #363636;
+}
+
+.step-number {
+    font-family: "Solway-Regular";
+    font-size: 26px;
+    color: #FFF7EF;
+    padding: 7px;
+    border-radius: 50%; 
+    border: 2px solid #836A5B;
+    background:#B89D87; 
+    width: 50px; 
+    height: 50px;
+}
+
+.checkout-header {
+    font-family: "Solway-Medium";
+    font-size: 23px;
+    color: #363636;
+}
+
+// --- body ---
+
+ion-content {
+    --background: #F3E8DE
+}
+
+#body {
+    padding: 60px;
+    margin: 30px auto;
+    width: 60%;
+    background-color: #FFF7EF;
+    border: 1px solid #E7D9CC;
+}
+
+.title {
+    font-family: 'Solway-Regular' ;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.subtitle {
+    font-family: 'Nunito-Medium';
+    font-size: 18px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.title2 {
+    font-family: 'Solway-Bold';
+    font-size: 18px;
+    padding: 0 30px;
+}
+
+.text {
+    font-family: 'Nunito-Medium';
+    font-size: 14px;
+    padding: 0 30px;
+}
+
+hr {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border-top: 4px solid #E7D9CC;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

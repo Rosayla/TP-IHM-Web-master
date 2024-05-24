@@ -1,0 +1,90 @@
+
+<ion-content>
+
+      <!-- header -->
+
+      <header id="header">
+
+        <a href="home"><img src="./assets/img/logo2.png" alt="TugaKidsClothes" /></a>
+    
+        <h1 id="checkout-title">Reserva</h1>
+    
+        <div style="display: flex; align-items:center; justify-content: center; gap: 70px;">
+          
+          <p class="step-number" style="text-align: center; ">1</p>
+    
+          <h1 class="checkout-header">Dados da Encomenda</h1>
+      
+          <div></div>
+
+          <p class="step-number" style="text-align: center; ">2</p>
+      
+          <h1 class="checkout-header">Confirmação</h1>
+      
+          <div></div>
+    
+        </div>
+      
+      </header>
+
+      <div id="body">
+
+        <div id="container">
+
+          <div class="flex">
+            <div class="flex-column">
+              <h2 class="title">Subtotal</h2>
+              <h2 class="title">Custos Entrega</h2>
+              <h2 class="title"><strong>Total</strong></h2>
+            </div>
+
+            <div class="flex-column"> 
+              <h3 class="subtitle">20.00 €</h3>
+              <h3 class="subtitle">3.50 €</h3>
+              <h3 class="subtitle">23.00 €</h3>
+            </div>
+          </div>
+
+          <div style="display: flex; flex-direction:column; justify-content: space-around;">
+            <ion-button class="general-button">Imprimir Fatura</ion-button>
+            <ion-button class="general-button">Cancelar Encomenda</ion-button>
+          </div>
+
+        </div>
+
+        <div id="endereco-entrega">
+
+          <hr>
+
+          <h2 class="title2">Endereço de Entrega</h2>
+
+          <p class="text">Aluno EI</p>
+          <p class="text">001 002 003</p>
+          <p class="text">Rua X</p>
+          <p class="text">Viana do Castelo</p>
+          <p class="text">4900-001</p>
+          <p class="text">Portugal</p>
+
+          <hr>
+
+          <h2 class="title2">Método de Pagamento</h2>
+          <p class="text">Cartão de Crédito</p>
+
+          <hr>
+
+          <div style="text-align: center;">
+            <p class="text">Poderás consultar a informaçào sobre as encomendas em:</p>
+
+            <p class="text">A Minha Conta > <u>Encomendas</u></p>
+  
+            <div style="text-align: center; margin-top: 4% ;">
+              <ion-button routerLink="/home" routerDirection="root">Página Principal</ion-button>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+</ion-content>
